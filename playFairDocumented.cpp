@@ -174,7 +174,10 @@ void playFair(string plainText, string Key)
 
     // Encrypt the digrams using the Playfair cipher
     cipherText = encryptPlayFair(digramArr);
-    cout <<endl<<cipherText << endl; // Print the encrypted ciphertext
+    
+    cout <<endl<<"The cipher text : "<<cipherText << endl;
+    
+    cout <<endl<<"The plain text : "<<plainText << endl; // Print the encrypted ciphertext
 }
 
 // Main function to test the Playfair cipher / Driver code

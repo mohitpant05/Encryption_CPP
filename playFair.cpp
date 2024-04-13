@@ -191,7 +191,9 @@ void playFair(string plainText, string Key)
     }
     cout<<endl;
     cipherText = encryptPlayFair(digramArr);
-    cout <<endl<<cipherText << endl;
+    cout <<endl<<"The cipher text : "<<cipherText << endl;
+    
+    cout <<endl<<"The plain text : "<<plainText << endl; 
 }
 
 int main()
